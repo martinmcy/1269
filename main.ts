@@ -1,7 +1,7 @@
 radio.onReceivedString(function (receivedString) {
 	
 })
-radio.setGroup(6)
+radio.setGroup(10)
 basic.forever(function () {
     if (input.acceleration(Dimension.Y) < -500) {
         radio.sendNumber(1)
